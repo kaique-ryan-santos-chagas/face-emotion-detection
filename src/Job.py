@@ -6,9 +6,10 @@ class Job:
     def __init__(self):
 
         self.camera = Camera()
+        self.detector = EmotionDetection()
         
 
-    def start(self):
+    def startCamera(self):
 
         self.camera.record = True
         self.camera.startRecording()
