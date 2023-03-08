@@ -5,7 +5,7 @@ from src.Job import Job
 
 job = Job()
 
-schedule.every().day.at('16:00').do(job.startCamera)
+schedule.every().day.at('15:35').do(job.startCamera)
 
 while True:
 
