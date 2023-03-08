@@ -39,4 +39,3 @@ class Camera:
             image.release()
             cv.destroyAllWindows()
         
-            self.detection.startDetection()

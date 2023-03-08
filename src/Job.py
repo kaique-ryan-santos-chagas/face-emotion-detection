@@ -13,3 +13,8 @@ class Job:
 
         self.camera.record = True
         self.camera.startRecording()
+
+    
+    def startDetection(self):
+
+        self.detector.startDetection()
